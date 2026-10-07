@@ -13,3 +13,11 @@ sauces = ["caramel", "butterscotch", "chocolate"]
 print(flavor + " ice cream sundae with " + sauce + " sauce")
 
 """
+
+flavors = ["vanilla", "chocolate", "strawberry", "pistacchio"]
+sauces = ["caramel", "butterscotch", "chocolate"]
+
+for flavor in flavors:
+    for sauce in sauces:
+        print(f"{flavor} ice cream sundae with {sauce} sauce")
+        
